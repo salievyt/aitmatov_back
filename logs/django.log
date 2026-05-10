@@ -1,0 +1,8 @@
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 3117
+"GET /api/schema/ HTTP/1.1" 200 21773
+"GET /api/swagger/ HTTP/1.1" 200 4653
+"GET /api/schema/ HTTP/1.1" 200 45617
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
