@@ -5,24 +5,49 @@ User = get_user_model()
 
 
 class UserSerializer(serializers.ModelSerializer):
+    avatar_url = serializers.SerializerMethodField()
+
     class Meta:
         model = User
         fields = [
-            'id', 'email', 'phone', 'first_name', 'last_name',
-            'role', 'class_level', 'school', 'date_joined',
+            'id', 'email', 'phone', 'username', 'first_name', 'last_name',
+            'avatar', 'avatar_url', 'role', 'class_level', 'school', 'is_active', 'is_staff', 'date_joined',
         ]
-        read_only_fields = ['id', 'date_joined', 'role']
+        read_only_fields = ['id', 'date_joined']
+
+    def get_avatar_url(self, obj):
+        request = self.context.get('request')
+        if obj.avatar and request:
+            return request.build_absolute_uri(obj.avatar.url)
+        return obj.avatar.url if obj.avatar else None
 
 
 class UserProfileSerializer(serializers.ModelSerializer):
+    avatar_url = serializers.SerializerMethodField()
+
+    class Meta:
+        model = User
+        fields = [
+            'id', 'email', 'phone', 'username', 'first_name', 'last_name',
+            'avatar', 'avatar_url', 'role', 'class_level', 'school',
+        ]
+        read_only_fields = ['id', 'email', 'role']
+
+    def get_avatar_url(self, obj):
+        request = self.context.get('request')
+        if obj.avatar and request:
+            return request.build_absolute_uri(obj.avatar.url)
+        return obj.avatar.url if obj.avatar else None
+
+
+class UserAdminUpdateSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = [
             'id', 'email', 'phone', 'first_name', 'last_name',
-            'role', 'class_level', 'school',
+            'role', 'class_level', 'school', 'is_active', 'is_staff',
         ]
-        read_only_fields = ['id', 'email', 'role']
-
+        read_only_fields = ['id', 'date_joined']
 
 class SignupSerializer(serializers.ModelSerializer):
     password = serializers.CharField(write_only=True, min_length=6)
@@ -30,7 +55,7 @@ class SignupSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ['email', 'phone', 'first_name', 'last_name', 'password', 'password_confirm', 'role', 'class_level', 'school']
+        fields = ['email', 'phone', 'username', 'first_name', 'last_name', 'password', 'password_confirm', 'role', 'class_level', 'school']
 
     def validate(self, data):
         if data['password'] != data.pop('password_confirm'):

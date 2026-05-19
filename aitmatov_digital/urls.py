@@ -9,6 +9,7 @@ from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/', include('api.urls')),
     path('api/schema/', SpectacularAPIView.as_view(), name='schema'),
     path('api/swagger/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
     path('api/auth/', include('users.urls')),
@@ -17,7 +18,22 @@ urlpatterns = [
     path('api/courses/', include('courses.urls')),
     path('api/aitmatov/', include('aitmatov.urls')),
     path('api/progress/', include('progress.urls')),
+    path('api/schedule/', include('schedule.urls')),
+    # Add v1/ prefix for compatibility
+    path('v1/auth/', include('users.urls')),
+    path('v1/users/', include('users.urls_users')),
+    path('v1/subjects/', include('subjects.urls')),
+    path('v1/courses/', include('courses.urls')),
+    path('v1/aitmatov/', include('aitmatov.urls')),
+    path('v1/progress/', include('progress.urls')),
+    path('v1/schedule/', include('schedule.urls')),
+    path('v1/messenger/', include('messenger.urls')),
+]
+
+urlpatterns += [
+    path('api/messenger/', include('messenger.urls')),
 ]
 
 if settings.DEBUG:
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

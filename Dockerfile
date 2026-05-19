@@ -31,4 +31,4 @@ COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
-CMD ["gunicorn", "aitmatov_digital.wsgi:application", "--bind", "0.0.0.0:8000", "--workers", "4"]
+CMD ["daphne", "-b", "0.0.0.0", "-p", "8000", "aitmatov_digital.asgi:application"]

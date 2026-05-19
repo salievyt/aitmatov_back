@@ -17,12 +17,13 @@ class LessonSerializer(serializers.ModelSerializer):
 class CourseListSerializer(serializers.ModelSerializer):
     subject = SubjectSerializer(read_only=True)
     lessons_count = serializers.IntegerField(source='lessons.count', read_only=True)
+    teacher_id = serializers.IntegerField(read_only=True)
 
     class Meta:
         model = Course
         fields = [
             'id', 'title', 'description', 'subject',
-            'is_aitmatov', 'class_level', 'image',
+            'teacher_id', 'is_aitmatov', 'class_level', 'image',
             'lessons_count', 'created_at',
         ]
 
@@ -31,12 +32,13 @@ class CourseDetailSerializer(serializers.ModelSerializer):
     subject = SubjectSerializer(read_only=True)
     aitmatov_theme = AitmatovThemeSerializer(read_only=True)
     lessons = LessonSerializer(many=True, read_only=True)
+    teacher_id = serializers.IntegerField(read_only=True)
 
     class Meta:
         model = Course
         fields = [
             'id', 'title', 'description', 'subject',
-            'teacher', 'is_aitmatov', 'aitmatov_theme',
+            'teacher', 'teacher_id', 'is_aitmatov', 'aitmatov_theme',
             'class_level', 'image', 'lessons',
             'is_active', 'created_at', 'updated_at',
         ]

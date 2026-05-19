@@ -14,8 +14,10 @@ class User(AbstractBaseUser, PermissionsMixin):
 
     email = models.EmailField(_('email address'), unique=True, blank=True, null=True)
     phone = models.CharField(_('телефон'), max_length=20, unique=True, blank=True, null=True)
+    username = models.CharField(_('никнейм'), max_length=150, unique=True, blank=True, null=True)
     first_name = models.CharField(_('имя'), max_length=150, blank=True)
     last_name = models.CharField(_('фамилия'), max_length=150, blank=True)
+    avatar = models.ImageField(_('аватар'), upload_to='avatars/%Y/%m/', blank=True, null=True)
     role = models.CharField(_('роль'), max_length=20, choices=Role.choices, default=Role.STUDENT)
     class_level = models.PositiveSmallIntegerField(_('класс'), blank=True, null=True)
     school = models.CharField(_('школа'), max_length=255, blank=True, null=True)

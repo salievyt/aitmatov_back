@@ -28,6 +28,8 @@ services:
     environment:
       DB_HOST: db
       DB_PORT: 5432
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
     volumes:
       - static_volume:/app/staticfiles
       - media_volume:/app/media
@@ -37,10 +39,12 @@ services:
     depends_on:
       db:
         condition: service_healthy
+      redis:
+        condition: service_healthy
     command: >
       sh -c "python manage.py migrate &&
              python manage.py collectstatic --noinput &&
-             gunicorn aitmatov_digital.wsgi:application --bind 0.0.0.0:8000 --workers 4"
+             daphne -b 0.0.0.0 -p 8000 aitmatov_digital.asgi:application"
 
   # Опционально: nginx для static/media в production
   nginx:
@@ -56,7 +60,22 @@ services:
     depends_on:
       - web
 
+  redis:
+    image: redis:7-alpine
+    container_name: aitmatov_redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
 volumes:
   postgres_data:
   static_volume:
   media_volume:
+  redis_data:
