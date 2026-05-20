@@ -1,12 +1,13 @@
 from django.contrib import admin
 
-from .models import ChatGroup, GroupMembership, Message
+from .models import ChatGroup, GroupMembership, Message, Channel, ChannelMessage
 
 
 @admin.register(ChatGroup)
 class ChatGroupAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name', 'created_by', 'is_private', 'created_at')
+    list_display = ('id', 'name', 'created_by', 'admin', 'is_private', 'created_at')
     search_fields = ('name', 'description')
+    list_filter = ('is_private', 'created_at')
 
 
 @admin.register(GroupMembership)
@@ -19,5 +20,20 @@ class GroupMembershipAdmin(admin.ModelAdmin):
 @admin.register(Message)
 class MessageAdmin(admin.ModelAdmin):
     list_display = ('id', 'group', 'author', 'message_type', 'created_at')
-    list_filter = ('message_type',)
+    list_filter = ('message_type', 'created_at')
+    search_fields = ('text', 'sticker_code', 'author__email')
+
+
+@admin.register(Channel)
+class ChannelAdmin(admin.ModelAdmin):
+    list_display = ('id', 'name', 'created_by', 'created_at')
+    search_fields = ('name', 'description')
+    list_filter = ('created_at',)
+    readonly_fields = ('created_by', 'created_at', 'updated_at')
+
+
+@admin.register(ChannelMessage)
+class ChannelMessageAdmin(admin.ModelAdmin):
+    list_display = ('id', 'channel', 'author', 'message_type', 'created_at')
+    list_filter = ('message_type', 'created_at')
     search_fields = ('text', 'sticker_code', 'author__email')

@@ -4046,3 +4046,1322 @@ Not Found: /v1/api/show
 Not Found: /v1/api/show
 "POST /v1/api/show HTTP/1.1" 404 4521
 "POST /v1/api/show HTTP/1.1" 404 4521
+Not Found: /v1/api/show
+Not Found: /v1/api/show
+Not Found: /v1/api/show
+Not Found: /v1/api/show
+"POST /v1/api/show HTTP/1.1" 404 4521
+"POST /v1/api/show HTTP/1.1" 404 4521
+"POST /v1/api/show HTTP/1.1" 404 4521
+"POST /v1/api/show HTTP/1.1" 404 4521
+Not Found: /v1/api/show
+Not Found: /v1/api/show
+Not Found: /v1/api/show
+"POST /v1/api/show HTTP/1.1" 404 4521
+Not Found: /v1/api/show
+"POST /v1/api/show HTTP/1.1" 404 4521
+"POST /v1/api/show HTTP/1.1" 404 4521
+"POST /v1/api/show HTTP/1.1" 404 4521
+Not Found: /v1/api/show
+Not Found: /v1/api/show
+Not Found: /v1/api/show
+Not Found: /v1/api/show
+"POST /v1/api/show HTTP/1.1" 404 4521
+"POST /v1/api/show HTTP/1.1" 404 4521
+"POST /v1/api/show HTTP/1.1" 404 4521
+"POST /v1/api/show HTTP/1.1" 404 4521
+Unauthorized: /api/users/me/
+"GET /api/users/me/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+Unauthorized: /api/messenger/groups/
+Unauthorized: /api/users/me/
+"GET /api/messenger/groups/ HTTP/1.1" 401 451
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/schedule/
+"GET /api/users/me/ HTTP/1.1" 401 451
+"GET /api/schedule/?day=1 HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/users/me/
+"GET /api/users/me/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/users/me/
+Unauthorized: /api/messenger/groups/
+Unauthorized: /api/schedule/
+"GET /api/messenger/groups/ HTTP/1.1" 401 451
+"GET /api/users/me/ HTTP/1.1" 401 451
+"GET /api/schedule/?day=1 HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Not Found: /
+"GET / HTTP/1.1" 404 4477
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4528
+Not Found: /v1/api/show
+Not Found: /v1/api/show
+"POST /v1/api/show HTTP/1.1" 404 4521
+Not Found: /v1/api/show
+Not Found: /v1/api/show
+"POST /v1/api/show HTTP/1.1" 404 4521
+"POST /v1/api/show HTTP/1.1" 404 4521
+"POST /v1/api/show HTTP/1.1" 404 4521
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/users/me/
+"GET /api/users/me/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/users/me/
+Unauthorized: /api/messenger/groups/
+Unauthorized: /api/schedule/
+"GET /api/users/me/ HTTP/1.1" 401 451
+"GET /api/messenger/groups/ HTTP/1.1" 401 451
+"GET /api/schedule/?day=1 HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+"GET /api/users/me/ HTTP/1.1" 200 208
+"GET /api/users/me/ HTTP/1.1" 200 208
+"GET /api/users/me/ HTTP/1.1" 200 208
+"GET /api/users/me/ HTTP/1.1" 200 208
+"GET /api/courses/ HTTP/1.1" 200 1030
+Unauthorized: /api/users/me/
+"GET /api/users/me/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+Unauthorized: /api/schedule/
+Unauthorized: /api/messenger/groups/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/users/me/
+"GET /api/schedule/?day=1 HTTP/1.1" 401 451
+"GET /api/messenger/groups/ HTTP/1.1" 401 451
+"GET /api/users/me/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/auth/login/
+"POST /api/auth/login/ HTTP/1.1" 401 164
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/subjects/ HTTP/1.1" 200 768
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/messenger/groups/ HTTP/1.1" 200 630
+"GET /api/courses/ HTTP/1.1" 200 1030
+"GET /api/courses/3/ HTTP/1.1" 200 5189
+"GET /api/courses/3/lessons/ HTTP/1.1" 200 4399
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Not Found: /api/
+"GET /api/ HTTP/1.1" 404 4763
+code 400, message Bad request version ('À')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /favicon.ico
+"HEAD /favicon.ico HTTP/1.1" 404 0
+Not Found: /
+"GET / HTTP/1.1" 404 4490
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4541
+Not Found: /api/
+"GET /api/ HTTP/1.1" 404 4763
+"GET /api/users HTTP/1.1" 301 0
+Unauthorized: /api/users/
+"GET /api/users/ HTTP/1.1" 401 5224
+Unauthorized: /api/users/me/
+"GET /api/users/me/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/schedule/
+"GET /api/schedule/?day=1 HTTP/1.1" 401 451
+Unauthorized: /api/users/me/
+Unauthorized: /api/messenger/groups/
+"GET /api/users/me/ HTTP/1.1" 401 451
+"GET /api/messenger/groups/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 200 15531
+"GET /admin/users/user/ HTTP/1.1" 200 18010
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+Unauthorized: /api/users/me/
+"GET /api/users/me/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/users/me/
+"GET /api/users/me/ HTTP/1.1" 401 451
+Unauthorized: /api/messenger/groups/
+"GET /api/messenger/groups/ HTTP/1.1" 401 451
+Unauthorized: /api/schedule/
+"GET /api/schedule/?day=1 HTTP/1.1" 401 451
+Unauthorized: /api/users/me/
+"GET /api/users/me/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+Unauthorized: /api/users/me/
+"GET /api/users/me/ HTTP/1.1" 401 451
+Unauthorized: /api/schedule/
+"GET /api/schedule/?day=1 HTTP/1.1" 401 451
+Unauthorized: /api/messenger/groups/
+"GET /api/messenger/groups/ HTTP/1.1" 401 451
+Unauthorized: /api/subjects/
+"GET /api/subjects/ HTTP/1.1" 401 451
+"POST /api/auth/login/ HTTP/1.1" 200 489
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/subjects/ HTTP/1.1" 200 768
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/messenger/groups/ HTTP/1.1" 200 630
+"GET /api/subjects/ HTTP/1.1" 200 768
+"GET /api/courses/ HTTP/1.1" 200 1030
+"GET /api/courses/1/ HTTP/1.1" 200 938
+"GET /api/courses/1/lessons/ HTTP/1.1" 200 569
+"GET /api/courses/1/lessons/ HTTP/1.1" 200 569
+"GET /api/aitmatov/themes/ HTTP/1.1" 200 1152
+"GET /api/courses/?aitmatov_theme=1 HTTP/1.1" 200 418
+"GET /api/courses/3/ HTTP/1.1" 200 5189
+"GET /api/courses/3/lessons/ HTTP/1.1" 200 4399
+"GET /admin/users/user/add/ HTTP/1.1" 200 18062
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"POST /admin/users/user/add/ HTTP/1.1" 302 0
+"GET /admin/users/user/4/change/ HTTP/1.1" 200 31306
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/users/user/4/history/ HTTP/1.1" 200 11563
+"GET /admin/users/user/4/change/ HTTP/1.1" 200 30974
+"POST /admin/users/user/4/change/ HTTP/1.1" 302 0
+"GET /admin/users/user/ HTTP/1.1" 200 18835
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/users/user/4/change/ HTTP/1.1" 200 31002
+"GET /admin/users/user/ HTTP/1.1" 200 18572
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/subjects/ HTTP/1.1" 200 768
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/messenger/groups/ HTTP/1.1" 200 630
+"GET /api/courses/ HTTP/1.1" 200 1030
+"GET /api/courses/ HTTP/1.1" 200 1030
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/subjects/ HTTP/1.1" 200 768
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/messenger/groups/ HTTP/1.1" 200 630
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/subjects/ HTTP/1.1" 200 768
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/messenger/groups/ HTTP/1.1" 200 630
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/subjects/ HTTP/1.1" 200 768
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/messenger/groups/ HTTP/1.1" 200 630
+"GET /api/aitmatov/themes/ HTTP/1.1" 200 1152
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/subjects/ HTTP/1.1" 200 768
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/messenger/groups/ HTTP/1.1" 200 630
+"GET /api/schedule/?day=2 HTTP/1.1" 200 896
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/schedule/?day=2 HTTP/1.1" 200 896
+"GET /api/schedule/?day=3 HTTP/1.1" 200 587
+"GET /api/schedule/?day=4 HTTP/1.1" 200 52
+"GET /api/schedule/?day=5 HTTP/1.1" 200 52
+"GET /api/schedule/?day=4 HTTP/1.1" 200 52
+"GET /api/schedule/?day=3 HTTP/1.1" 200 587
+"GET /api/schedule/?day=2 HTTP/1.1" 200 896
+"GET /api/schedule/?day=3 HTTP/1.1" 200 587
+"GET /api/schedule/?day=2 HTTP/1.1" 200 896
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/subjects/ HTTP/1.1" 200 768
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/messenger/groups/ HTTP/1.1" 200 630
+"GET /api/messenger/groups/ HTTP/1.1" 200 630
+Watching for file changes with StatReloader
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/subjects/ HTTP/1.1" 200 768
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/messenger/groups/ HTTP/1.1" 200 630
+"GET /api/courses/ HTTP/1.1" 200 1030
+"GET /api/courses/1/ HTTP/1.1" 200 938
+"GET /api/courses/1/lessons/ HTTP/1.1" 200 569
+"GET /api/courses/1/lessons/ HTTP/1.1" 200 569
+"GET /api/courses/1/lessons/ HTTP/1.1" 200 569
+"GET /api/courses/1/lessons/ HTTP/1.1" 200 569
+"GET /api/courses/1/ HTTP/1.1" 200 938
+"GET /api/courses/1/lessons/ HTTP/1.1" 200 569
+"GET /api/courses/ HTTP/1.1" 200 1030
+"GET /api/courses/3/ HTTP/1.1" 200 5189
+"GET /api/courses/3/lessons/ HTTP/1.1" 200 4399
+"GET /api/courses/3/lessons/ HTTP/1.1" 200 4399
+"POST /api/progress/ HTTP/1.1" 201 53
+"GET /api/schedule/?day=2 HTTP/1.1" 200 896
+"GET /api/schedule/?day=3 HTTP/1.1" 200 587
+"GET /api/schedule/?day=4 HTTP/1.1" 200 52
+"GET /api/schedule/?day=5 HTTP/1.1" 200 52
+"GET /api/schedule/?day=6 HTTP/1.1" 200 52
+"GET /api/schedule/?day=7 HTTP/1.1" 200 52
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+Not Found: /v1/api/show
+Not Found: /v1/api/show
+"POST /v1/api/show HTTP/1.1" 404 4521
+Not Found: /v1/api/show
+"POST /v1/api/show HTTP/1.1" 404 4521
+Not Found: /v1/api/show
+"POST /v1/api/show HTTP/1.1" 404 4521
+"POST /v1/api/show HTTP/1.1" 404 4521
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/subjects/ HTTP/1.1" 200 768
+"GET /api/messenger/groups/ HTTP/1.1" 200 630
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/subjects/ HTTP/1.1" 200 768
+"GET /api/schedule/?day=3 HTTP/1.1" 200 587
+"GET /api/schedule/?day=2 HTTP/1.1" 200 896
+"GET /api/schedule/?day=3 HTTP/1.1" 200 587
+Not Found: /
+"GET / HTTP/1.1" 404 4477
+"GET /admin/ HTTP/1.1" 200 15459
+"GET /admin/subjects/subject/ HTTP/1.1" 200 17705
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/subjects/subject/add/ HTTP/1.1" 200 16480
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"POST /admin/subjects/subject/add/ HTTP/1.1" 302 0
+"GET /admin/subjects/subject/ HTTP/1.1" 200 18310
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/subjects/subject/add/ HTTP/1.1" 200 16480
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"POST /admin/subjects/subject/add/ HTTP/1.1" 302 0
+"GET /admin/subjects/subject/ HTTP/1.1" 200 18685
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /api/subjects/ HTTP/1.1" 200 959
+"GET /admin/subjects/subject/add/ HTTP/1.1" 200 16480
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"POST /admin/subjects/subject/add/ HTTP/1.1" 302 0
+"GET /admin/subjects/subject/ HTTP/1.1" 200 19063
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/subjects/subject/add/ HTTP/1.1" 200 16480
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"POST /admin/subjects/subject/add/ HTTP/1.1" 302 0
+"GET /admin/subjects/subject/ HTTP/1.1" 200 19444
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /api/subjects/ HTTP/1.1" 200 1156
+"GET /admin/messenger/chatgroup/ HTTP/1.1" 200 14720
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/messenger/groupmembership/ HTTP/1.1" 200 16190
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/messenger/groupmembership/3/change/ HTTP/1.1" 200 17360
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"POST /admin/messenger/groupmembership/3/change/ HTTP/1.1" 302 0
+"GET /admin/messenger/groupmembership/ HTTP/1.1" 200 16493
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/messenger/message/ HTTP/1.1" 200 15593
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/messenger/chatgroup/ HTTP/1.1" 200 14720
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/messenger/chatgroup/1/change/ HTTP/1.1" 200 17184
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"POST /admin/messenger/chatgroup/1/change/ HTTP/1.1" 302 0
+"GET /admin/messenger/chatgroup/ HTTP/1.1" 200 14986
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/messenger/chatgroup/add/ HTTP/1.1" 200 16744
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"POST /admin/messenger/chatgroup/add/ HTTP/1.1" 302 0
+"GET /admin/messenger/chatgroup/ HTTP/1.1" 200 15411
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/messenger/chatgroup/2/change/ HTTP/1.1" 200 16984
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"POST /admin/messenger/chatgroup/2/change/ HTTP/1.1" 302 0
+"GET /admin/messenger/chatgroup/ HTTP/1.1" 200 15415
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/messenger/chatgroup/add/ HTTP/1.1" 200 16744
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"POST /admin/messenger/chatgroup/add/ HTTP/1.1" 302 0
+"GET /admin/messenger/chatgroup/ HTTP/1.1" 200 15874
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/messenger/chatgroup/add/ HTTP/1.1" 200 16744
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"POST /admin/messenger/chatgroup/add/ HTTP/1.1" 302 0
+"GET /admin/messenger/chatgroup/ HTTP/1.1" 200 16333
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/subjects/ HTTP/1.1" 200 1156
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/messenger/groups/ HTTP/1.1" 200 626
+"GET /api/swagger/ HTTP/1.1" 200 4653
+"GET /api/schema/ HTTP/1.1" 200 173899
+Not Found: /v1/api/show
+Not Found: /v1/api/show
+Not Found: /v1/api/show
+Not Found: /v1/api/show
+"POST /v1/api/show HTTP/1.1" 404 4521
+"POST /v1/api/show HTTP/1.1" 404 4521
+"POST /v1/api/show HTTP/1.1" 404 4521
+"POST /v1/api/show HTTP/1.1" 404 4521
+"GET /admin/messenger/groupmembership/ HTTP/1.1" 200 16190
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/messenger/groupmembership/add/ HTTP/1.1" 200 17086
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"POST /admin/messenger/groupmembership/add/ HTTP/1.1" 302 0
+"GET /admin/messenger/groupmembership/ HTTP/1.1" 200 16944
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/messenger/groupmembership/add/ HTTP/1.1" 200 17086
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"POST /admin/messenger/groupmembership/add/ HTTP/1.1" 302 0
+"GET /admin/messenger/groupmembership/ HTTP/1.1" 200 17444
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/messenger/groupmembership/add/ HTTP/1.1" 200 17086
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"POST /admin/messenger/groupmembership/add/ HTTP/1.1" 302 0
+"GET /admin/messenger/groupmembership/ HTTP/1.1" 200 17890
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/messenger/groupmembership/add/ HTTP/1.1" 200 17086
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"POST /admin/messenger/groupmembership/add/ HTTP/1.1" 302 0
+"GET /admin/messenger/groupmembership/ HTTP/1.1" 200 18357
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/messenger/groupmembership/add/ HTTP/1.1" 200 17086
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"POST /admin/messenger/groupmembership/add/ HTTP/1.1" 302 0
+"GET /admin/messenger/groupmembership/ HTTP/1.1" 200 18822
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/messenger/groupmembership/add/ HTTP/1.1" 200 17086
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+/app/messenger/models.py changed, reloading.
+Watching for file changes with StatReloader
+/app/messenger/models.py changed, reloading.
+Watching for file changes with StatReloader
+/app/messenger/models.py changed, reloading.
+Watching for file changes with StatReloader
+/app/messenger/models.py changed, reloading.
+Watching for file changes with StatReloader
+/app/messenger/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/app/messenger/views.py changed, reloading.
+Watching for file changes with StatReloader
+/app/messenger/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/messenger/groupmembership/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: column messenger_chatgroup.admin_id does not exist
+LINE 1: ..._private", "messenger_chatgroup"."created_by_id", "messenger...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 689, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 2068, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1886, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: column messenger_chatgroup.admin_id does not exist
+LINE 1: ..._private", "messenger_chatgroup"."created_by_id", "messenger...
+                                                             ^
+
+"GET /admin/messenger/groupmembership/ HTTP/1.1" 500 162581
+Internal Server Error: /admin/messenger/groupmembership/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: column messenger_chatgroup.admin_id does not exist
+LINE 1: ..._private", "messenger_chatgroup"."created_by_id", "messenger...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: column messenger_chatgroup.admin_id does not exist
+LINE 1: ..._private", "messenger_chatgroup"."created_by_id", "messenger...
+                                                             ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/loader_tags.py", line 208, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 177, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1070, in render
+    return render_value_in_context(output, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1047, in render_value_in_context
+    value = str(value)
+            ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/html.py", line 480, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+                                           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/forms/boundfield.py", line 34, in __str__
+    return self.as_widget()
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/forms/boundfield.py", line 107, in as_widget
+    return widget.render(
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/forms/widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/contrib/admin/widgets.py", line 320, in get_context
+    "rendered_widget": self.widget.render(name, value, attrs),
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/forms/widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/forms/widgets.py", line 758, in get_context
+    context = super().get_context(name, value, attrs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/forms/widgets.py", line 717, in get_context
+    context["widget"]["optgroups"] = self.optgroups(
+                                     ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/forms/widgets.py", line 657, in optgroups
+    for index, (option_value, option_label) in enumerate(self.choices):
+  File "/usr/local/lib/python3.11/site-packages/django/forms/models.py", line 1403, in __iter__
+    for obj in queryset:
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 518, in _iterator
+    yield from iterable
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1565, in execute_sql
+    cursor.close()
+psycopg2.errors.InvalidCursorName: cursor "_django_curs_281473691808128_sync_2" does not exist
+
+"GET /admin/messenger/groupmembership/add/ HTTP/1.1" 500 743379
+/app/messenger/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/messenger/groupmembership/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: column messenger_chatgroup.admin_id does not exist
+LINE 1: ..._private", "messenger_chatgroup"."created_by_id", "messenger...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: column messenger_chatgroup.admin_id does not exist
+LINE 1: ..._private", "messenger_chatgroup"."created_by_id", "messenger...
+                                                             ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/loader_tags.py", line 208, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 177, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1070, in render
+    return render_value_in_context(output, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/base.py", line 1047, in render_value_in_context
+    value = str(value)
+            ^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/html.py", line 480, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+                                           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/forms/boundfield.py", line 34, in __str__
+    return self.as_widget()
+           ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/forms/boundfield.py", line 107, in as_widget
+    return widget.render(
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/forms/widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/contrib/admin/widgets.py", line 320, in get_context
+    "rendered_widget": self.widget.render(name, value, attrs),
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/forms/widgets.py", line 280, in render
+    context = self.get_context(name, value, attrs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/forms/widgets.py", line 758, in get_context
+    context = super().get_context(name, value, attrs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/forms/widgets.py", line 717, in get_context
+    context["widget"]["optgroups"] = self.optgroups(
+                                     ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/forms/widgets.py", line 657, in optgroups
+    for index, (option_value, option_label) in enumerate(self.choices):
+  File "/usr/local/lib/python3.11/site-packages/django/forms/models.py", line 1403, in __iter__
+    for obj in queryset:
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 518, in _iterator
+    yield from iterable
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1565, in execute_sql
+    cursor.close()
+psycopg2.errors.InvalidCursorName: cursor "_django_curs_281473059058048_sync_2" does not exist
+
+"GET /admin/messenger/groupmembership/add/ HTTP/1.1" 500 742436
+"GET /admin/ HTTP/1.1" 200 16376
+"GET /api/swagger/ HTTP/1.1" 200 4653
+"GET /api/schema/ HTTP/1.1" 200 210540
+"GET /api/schema/ HTTP/1.1" 200 96338
+Internal Server Error: /admin/messenger/groupmembership/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: column messenger_chatgroup.admin_id does not exist
+LINE 1: ..._private", "messenger_chatgroup"."created_by_id", "messenger...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 689, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 2068, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1886, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: column messenger_chatgroup.admin_id does not exist
+LINE 1: ..._private", "messenger_chatgroup"."created_by_id", "messenger...
+                                                             ^
+
+"GET /admin/messenger/groupmembership/ HTTP/1.1" 500 162551
+"GET /admin/ HTTP/1.1" 200 16376
+Internal Server Error: /admin/messenger/chatgroup/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: column messenger_chatgroup.admin_id does not exist
+LINE 1: ..._private", "messenger_chatgroup"."created_by_id", "messenger...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 689, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 2068, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 1886, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: column messenger_chatgroup.admin_id does not exist
+LINE 1: ..._private", "messenger_chatgroup"."created_by_id", "messenger...
+                                                             ^
+
+"GET /admin/messenger/chatgroup/ HTTP/1.1" 500 152300
+"GET /admin/ HTTP/1.1" 200 16376
+"GET /admin/courses/lesson/ HTTP/1.1" 200 19701
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+Internal Server Error: /admin/messenger/channel/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "messenger_channel" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "messenger_channel"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 689, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1927, in changelist_view
+    cl = self.get_changelist_instance(request)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 837, in get_changelist_instance
+    return ChangeList(
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/contrib/admin/views/main.py", line 123, in __init__
+    self.get_results(request)
+  File "/usr/local/lib/python3.11/site-packages/django/contrib/admin/views/main.py", line 279, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/paginator.py", line 93, in count
+    return c()
+           ^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/query.py", line 610, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 570, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 556, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/usr/local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "messenger_channel" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "messenger_channel"
+                                          ^
+
+"GET /admin/messenger/channel/ HTTP/1.1" 500 172827
+"GET /admin/messenger/channel/ HTTP/1.1" 200 14129
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/messenger/chatgroup/ HTTP/1.1" 200 18391
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/messenger/chatgroup/1/change/ HTTP/1.1" 200 20291
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"POST /admin/messenger/chatgroup/1/change/ HTTP/1.1" 302 0
+"GET /admin/messenger/chatgroup/ HTTP/1.1" 200 18681
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/messenger/chatgroup/4/change/ HTTP/1.1" 200 20079
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"POST /admin/messenger/chatgroup/4/change/ HTTP/1.1" 302 0
+"GET /admin/messenger/chatgroup/ HTTP/1.1" 200 18670
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/messenger/chatgroup/3/change/ HTTP/1.1" 200 20083
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"POST /admin/messenger/chatgroup/3/change/ HTTP/1.1" 302 0
+"GET /admin/messenger/chatgroup/ HTTP/1.1" 200 18693
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /admin/messenger/chatgroup/2/change/ HTTP/1.1" 200 20083
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"POST /admin/messenger/chatgroup/2/change/ HTTP/1.1" 302 0
+"GET /admin/messenger/chatgroup/ HTTP/1.1" 200 18715
+"GET /admin/jsi18n/ HTTP/1.1" 200 16066
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/subjects/ HTTP/1.1" 200 1156
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/subjects/ HTTP/1.1" 200 1156
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/subjects/ HTTP/1.1" 200 1156
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/subjects/ HTTP/1.1" 200 1156
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/messenger/channels/ HTTP/1.1" 200 52
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/messenger/groups/ HTTP/1.1" 200 1644
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/messenger/channels/ HTTP/1.1" 200 52
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/subjects/ HTTP/1.1" 200 1156
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/messenger/groups/ HTTP/1.1" 200 1644
+"GET /api/messenger/groups/1/ HTTP/1.1" 200 1448
+"GET /api/messenger/groups/1/messages/ HTTP/1.1" 200 481
+"GET /api/messenger/groups/2/ HTTP/1.1" 200 1158
+"GET /api/messenger/groups/2/messages/ HTTP/1.1" 200 2
+"GET /api/courses/ HTTP/1.1" 200 1030
+"GET /api/messenger/groups/2/ HTTP/1.1" 200 1158
+"GET /api/messenger/groups/2/messages/ HTTP/1.1" 200 2
+"GET /api/messenger/groups/2/ HTTP/1.1" 200 1158
+"GET /api/messenger/groups/2/messages/ HTTP/1.1" 200 2
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/subjects/ HTTP/1.1" 200 1156
+"GET /api/messenger/channels/ HTTP/1.1" 200 52
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/messenger/groups/ HTTP/1.1" 200 1644
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/messenger/groups/2/ HTTP/1.1" 200 1158
+"GET /api/messenger/groups/2/messages/ HTTP/1.1" 200 2
+"GET /api/messenger/groups/1/ HTTP/1.1" 200 1448
+"GET /api/messenger/groups/1/messages/ HTTP/1.1" 200 481
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/subjects/ HTTP/1.1" 200 1156
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/messenger/groups/ HTTP/1.1" 200 1644
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/messenger/channels/ HTTP/1.1" 200 52
+"GET /api/messenger/groups/2/ HTTP/1.1" 200 1158
+"GET /api/messenger/groups/2/messages/ HTTP/1.1" 200 2
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/messenger/channels/ HTTP/1.1" 200 52
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/subjects/ HTTP/1.1" 200 1156
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/messenger/groups/ HTTP/1.1" 200 1644
+"GET /api/messenger/groups/2/ HTTP/1.1" 200 1158
+"GET /api/messenger/groups/2/messages/ HTTP/1.1" 200 2
+"GET /api/messenger/groups/2/ HTTP/1.1" 200 1158
+"GET /api/messenger/groups/2/messages/ HTTP/1.1" 200 2
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/subjects/ HTTP/1.1" 200 1156
+"GET /api/messenger/channels/ HTTP/1.1" 200 52
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/messenger/groups/ HTTP/1.1" 200 1644
+"GET /api/messenger/groups/2/ HTTP/1.1" 200 1158
+"GET /api/messenger/groups/2/messages/ HTTP/1.1" 200 2
+Bad Request: /api/messenger/groups/2/messages/
+"POST /api/messenger/groups/2/messages/ HTTP/1.1" 400 121
+"GET /api/messenger/groups/2/ HTTP/1.1" 200 1158
+"GET /api/messenger/groups/2/messages/ HTTP/1.1" 200 2
+Bad Request: /api/messenger/groups/2/messages/
+"POST /api/messenger/groups/2/messages/ HTTP/1.1" 400 121
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/users/me/ HTTP/1.1" 200 219
+"GET /api/messenger/channels/ HTTP/1.1" 200 52
+"GET /api/subjects/ HTTP/1.1" 200 1156
+"GET /api/messenger/groups/ HTTP/1.1" 200 1644
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+Not Found: /v1/api/show
+Not Found: /v1/api/show
+"POST /v1/api/show HTTP/1.1" 404 4521
+Not Found: /v1/api/show
+"POST /v1/api/show HTTP/1.1" 404 4521
+Not Found: /v1/api/show
+"POST /v1/api/show HTTP/1.1" 404 4521
+"POST /v1/api/show HTTP/1.1" 404 4521
+Not Found: /v1/api/show
+Not Found: /v1/api/show
+"POST /v1/api/show HTTP/1.1" 404 4521
+"POST /v1/api/show HTTP/1.1" 404 4521
+Not Found: /v1/api/show
+"POST /v1/api/show HTTP/1.1" 404 4521
+Not Found: /v1/api/show
+"POST /v1/api/show HTTP/1.1" 404 4521

@@ -6,7 +6,7 @@ from rest_framework.views import APIView
 from channels.layers import get_channel_layer
 from asgiref.sync import async_to_sync
 
-from .models import ChatGroup, GroupMembership, Message
+from .models import ChatGroup, GroupMembership, Message, Channel, ChannelMessage
 from .serializers import (
     AssignLeaderSerializer,
     ChatGroupDetailSerializer,
@@ -14,6 +14,9 @@ from .serializers import (
     GroupMembershipSerializer,
     MessageCreateSerializer,
     MessageSerializer,
+    ChannelSerializer,
+    ChannelMessageSerializer,
+    ChannelMessageCreateSerializer,
 )
 
 User = get_user_model()
@@ -31,6 +34,10 @@ def can_manage_group(user, group):
     return is_group_leader(user, group) or getattr(user, 'role', None) == User.Role.ADMIN or user.is_staff
 
 
+def is_platform_admin(user):
+    return getattr(user, 'role', None) == User.Role.ADMIN or user.is_staff
+
+
 def broadcast_message(message):
     channel_layer = get_channel_layer()
     if not channel_layer:
@@ -44,6 +51,19 @@ def broadcast_message(message):
     )
 
 
+def broadcast_channel_message(message):
+    channel_layer = get_channel_layer()
+    if not channel_layer:
+        return
+    async_to_sync(channel_layer.group_send)(
+        f'chat_channel_{message.channel_id}',
+        {
+            'type': 'channel.message',
+            'message': ChannelMessageSerializer(message).data,
+        },
+    )
+
+
 class ChatGroupListCreateView(generics.ListCreateAPIView):
     serializer_class = ChatGroupSerializer
     permission_classes = [permissions.IsAuthenticated]
@@ -53,7 +73,7 @@ class ChatGroupListCreateView(generics.ListCreateAPIView):
 
     def perform_create(self, serializer):
         member_ids = self.request.data.get('member_ids', []) or []
-        group = serializer.save(created_by=self.request.user)
+        group = serializer.save(created_by=self.request.user, admin=self.request.user)
         GroupMembership.objects.create(group=group, user=self.request.user, is_leader=True)
         for member_id in set(member_ids):
             if member_id == self.request.user.id:
@@ -140,3 +160,50 @@ class MessageListCreateView(generics.ListCreateAPIView):
             raise permissions.PermissionDenied('Вы не участник группы.')
         message = serializer.save(author=self.request.user, group=group)
         broadcast_message(message)
+
+
+class ChannelListCreateView(generics.ListCreateAPIView):
+    serializer_class = ChannelSerializer
+    permission_classes = [permissions.IsAuthenticated]
+    queryset = Channel.objects.all().select_related('created_by')
+
+    def perform_create(self, serializer):
+        if not is_platform_admin(self.request.user):
+            raise permissions.PermissionDenied('Только администраторы платформы могут создавать каналы.')
+        serializer.save(created_by=self.request.user)
+
+
+class ChannelDetailView(generics.RetrieveUpdateDestroyAPIView):
+    serializer_class = ChannelSerializer
+    permission_classes = [permissions.IsAuthenticated]
+    queryset = Channel.objects.all().select_related('created_by')
+
+    def check_object_permissions(self, request, obj):
+        if request.method in ['PUT', 'PATCH', 'DELETE']:
+            if not is_platform_admin(request.user):
+                raise permissions.PermissionDenied('Только администраторы платформы могут редактировать или удалять каналы.')
+
+
+class ChannelMessageListCreateView(generics.ListCreateAPIView):
+    permission_classes = [permissions.IsAuthenticated]
+
+    def get_channel(self):
+        return get_object_or_404(Channel, pk=self.kwargs['channel_id'])
+
+    def get_queryset(self):
+        channel = self.get_channel()
+        return ChannelMessage.objects.filter(channel=channel).select_related('author').order_by('created_at')
+
+    def get_serializer_class(self):
+        if self.request.method == 'POST':
+            return ChannelMessageCreateSerializer
+        return ChannelMessageSerializer
+
+    def list(self, request, *args, **kwargs):
+        serializer = self.get_serializer(self.get_queryset(), many=True, context={'request': request})
+        return Response(serializer.data)
+
+    def perform_create(self, serializer):
+        channel = self.get_channel()
+        message = serializer.save(author=self.request.user, channel=channel)
+        broadcast_channel_message(message)
