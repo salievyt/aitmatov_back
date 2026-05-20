@@ -1,8 +1,10 @@
 from rest_framework import generics, status, permissions
 from rest_framework.response import Response
 from rest_framework.views import APIView
+from rest_framework_simplejwt.views import TokenObtainPairView
 from django.contrib.auth import get_user_model
 
+from api.models import create_audit_log, AuditLog
 from .serializers import UserSerializer, UserProfileSerializer, SignupSerializer, UserAdminUpdateSerializer
 
 User = get_user_model()
@@ -14,6 +16,27 @@ class IsAdmin(permissions.BasePermission):
     """
     def has_permission(self, request, view):
         return request.user and request.user.is_authenticated and request.user.role == User.Role.ADMIN
+
+
+class LoginView(TokenObtainPairView):
+    permission_classes = [permissions.AllowAny]
+
+    def post(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        user = getattr(serializer, 'user', None)
+        response = Response(serializer.validated_data, status=status.HTTP_200_OK)
+        if user:
+            create_audit_log(
+                AuditLog.Action.LOGIN,
+                user=user,
+                target_type='user',
+                target_id=user.pk,
+                target_name=str(user),
+                request=request,
+                details={'event': 'token.login'},
+            )
+        return response
 
 
 class SignupView(generics.CreateAPIView):
