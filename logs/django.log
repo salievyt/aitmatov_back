@@ -5908,3 +5908,120 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 /app/aitmatov_digital/urls.py changed, reloading.
 Watching for file changes with StatReloader
+"GET /api/swagger/ HTTP/1.1" 200 4653
+"GET /api/schema/ HTTP/1.1" 200 212674
+"GET /api/schema/ HTTP/1.1" 200 100417
+"GET /api/users/me/ HTTP/1.1" 200 229
+"GET /api/users/me/ HTTP/1.1" 200 229
+"GET /api/subjects/ HTTP/1.1" 200 1156
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/messenger/channels/ HTTP/1.1" 200 270
+"GET /api/messenger/groups/ HTTP/1.1" 200 2522
+"GET /api/messenger/groups/5/ HTTP/1.1" 200 1649
+Not Found: /api/ws/messenger/groups/5/
+"GET /api/ws/messenger/groups/5/ HTTP/1.1" 404 4847
+"GET /api/messenger/groups/5/messages/ HTTP/1.1" 200 2409
+Method Not Allowed: /api/messenger/groups/5/messages/
+"POST /api/messenger/groups/5/messages/ HTTP/1.1" 405 103
+"GET /api/messenger/groups/5/ HTTP/1.1" 200 1649
+"GET /api/messenger/groups/5/messages/ HTTP/1.1" 200 2409
+"GET /api/users/me/ HTTP/1.1" 200 229
+"GET /api/subjects/ HTTP/1.1" 200 1156
+"GET /api/messenger/channels/ HTTP/1.1" 200 270
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/users/me/ HTTP/1.1" 200 229
+"GET /api/messenger/groups/ HTTP/1.1" 200 2522
+"GET /api/courses/ HTTP/1.1" 200 1030
+"GET /api/messenger/groups/5/ HTTP/1.1" 200 1649
+Not Found: /api/ws/messenger/groups/5/
+"GET /api/ws/messenger/groups/5/ HTTP/1.1" 404 4847
+"GET /api/messenger/groups/5/messages/ HTTP/1.1" 200 2409
+Method Not Allowed: /api/messenger/groups/5/messages/
+"POST /api/messenger/groups/5/messages/ HTTP/1.1" 405 103
+Not Found: /v1/api/show
+Not Found: /v1/api/show
+"POST /v1/api/show HTTP/1.1" 404 3745
+"POST /v1/api/show HTTP/1.1" 404 3745
+Not Found: /v1/api/show
+Not Found: /v1/api/show
+"POST /v1/api/show HTTP/1.1" 404 3745
+"POST /v1/api/show HTTP/1.1" 404 3745
+"GET /api/messenger/groups/5/ HTTP/1.1" 200 1649
+"GET /api/messenger/groups/5/messages/ HTTP/1.1" 200 2409
+Not Found: /api/ws/messenger/groups/5/
+"GET /api/ws/messenger/groups/5/ HTTP/1.1" 404 4847
+"GET /api/messenger/groups/5/ HTTP/1.1" 200 1649
+"GET /api/messenger/groups/5/messages/ HTTP/1.1" 200 2409
+"GET /api/messenger/groups/5/ HTTP/1.1" 200 1649
+"GET /api/users/me/ HTTP/1.1" 200 229
+"GET /api/messenger/channels/ HTTP/1.1" 200 270
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/subjects/ HTTP/1.1" 200 1156
+"GET /api/messenger/groups/ HTTP/1.1" 200 2522
+"GET /api/messenger/groups/5/ HTTP/1.1" 200 1649
+Not Found: /api/ws/messenger/groups/5/
+"GET /api/ws/messenger/groups/5/??token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5NzgwMzgzLCJpYXQiOjE3NzkzNDgzODMsImp0aSI6ImE4YjhiNmIyMzJhODRiNWM5Y2U5MDlhNDBiOWNmNDJkIiwidXNlcl9pZCI6IjIifQ.vpejTLyLX4LOtG8fRNdEAp2sMrUxrhurE7VnJmr3DCA HTTP/1.1" 404 5086
+"GET /api/messenger/groups/5/messages/ HTTP/1.1" 200 2409
+Method Not Allowed: /api/messenger/groups/5/messages/
+"POST /api/messenger/groups/5/messages/ HTTP/1.1" 405 103
+"GET /api/messenger/groups/5/ HTTP/1.1" 200 1649
+"GET /api/messenger/groups/5/messages/ HTTP/1.1" 200 2409
+Not Found: /v1/api/show
+Not Found: /v1/api/show
+"POST /v1/api/show HTTP/1.1" 404 3745
+"POST /v1/api/show HTTP/1.1" 404 3745
+Not Found: /v1/api/show
+Not Found: /v1/api/show
+"POST /v1/api/show HTTP/1.1" 404 3745
+"POST /v1/api/show HTTP/1.1" 404 3745
+Not Found: /v1/api/show
+Not Found: /v1/api/show
+"POST /v1/api/show HTTP/1.1" 404 3745
+"POST /v1/api/show HTTP/1.1" 404 3745
+Not Found: /v1/api/show
+Not Found: /v1/api/show
+"POST /v1/api/show HTTP/1.1" 404 3745
+"POST /v1/api/show HTTP/1.1" 404 3745
+"GET /api/users/me/ HTTP/1.1" 200 229
+"GET /api/subjects/ HTTP/1.1" 200 1156
+"GET /api/users/me/ HTTP/1.1" 200 229
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/messenger/channels/ HTTP/1.1" 200 270
+"GET /api/messenger/groups/ HTTP/1.1" 200 2522
+"GET /api/messenger/groups/5/ HTTP/1.1" 200 1649
+Not Found: /api/ws/messenger/5/
+"GET /api/ws/messenger/5/??token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5NzgwMzgzLCJpYXQiOjE3NzkzNDgzODMsImp0aSI6ImE4YjhiNmIyMzJhODRiNWM5Y2U5MDlhNDBiOWNmNDJkIiwidXNlcl9pZCI6IjIifQ.vpejTLyLX4LOtG8fRNdEAp2sMrUxrhurE7VnJmr3DCA HTTP/1.1" 404 5065
+"GET /api/messenger/groups/5/messages/ HTTP/1.1" 200 2409
+Method Not Allowed: /api/messenger/groups/5/messages/
+"POST /api/messenger/groups/5/messages/ HTTP/1.1" 405 103
+"GET /api/messenger/groups/5/ HTTP/1.1" 200 1649
+"GET /api/messenger/groups/5/messages/ HTTP/1.1" 200 2409
+"GET /api/users/me/ HTTP/1.1" 200 229
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/users/me/ HTTP/1.1" 200 229
+"GET /api/subjects/ HTTP/1.1" 200 1156
+"GET /api/messenger/channels/ HTTP/1.1" 200 270
+"GET /api/messenger/groups/ HTTP/1.1" 200 2522
+"GET /api/messenger/groups/5/ HTTP/1.1" 200 1649
+Not Found: /api/ws/messenger/5/
+"GET /api/ws/messenger/5/??token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5NzgwMzgzLCJpYXQiOjE3NzkzNDgzODMsImp0aSI6ImE4YjhiNmIyMzJhODRiNWM5Y2U5MDlhNDBiOWNmNDJkIiwidXNlcl9pZCI6IjIifQ.vpejTLyLX4LOtG8fRNdEAp2sMrUxrhurE7VnJmr3DCA HTTP/1.1" 404 5065
+"GET /api/messenger/groups/5/messages/ HTTP/1.1" 200 2409
+Method Not Allowed: /api/messenger/groups/5/messages/
+"POST /api/messenger/groups/5/messages/ HTTP/1.1" 405 103
+/app/messenger/views.py changed, reloading.
+Watching for file changes with StatReloader
+/app/messenger/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /api/users/me/ HTTP/1.1" 200 229
+"GET /api/subjects/ HTTP/1.1" 200 1156
+"GET /api/users/me/ HTTP/1.1" 200 229
+"GET /api/schedule/?day=1 HTTP/1.1" 200 1186
+"GET /api/messenger/channels/ HTTP/1.1" 200 270
+"GET /api/messenger/groups/ HTTP/1.1" 200 2522
+"GET /api/messenger/groups/5/ HTTP/1.1" 200 1649
+Not Found: /ws/messenger/5/
+"GET /ws/messenger/5/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5NzgwMzgzLCJpYXQiOjE3NzkzNDgzODMsImp0aSI6ImE4YjhiNmIyMzJhODRiNWM5Y2U5MDlhNDBiOWNmNDJkIiwidXNlcl9pZCI6IjIifQ.vpejTLyLX4LOtG8fRNdEAp2sMrUxrhurE7VnJmr3DCA HTTP/1.1" 404 4002
+"GET /api/messenger/groups/5/messages/ HTTP/1.1" 200 2409
+"POST /api/messenger/groups/5/messages/ HTTP/1.1" 201 462
+"GET /api/messenger/groups/5/ HTTP/1.1" 200 1649
+"GET /api/messenger/groups/5/messages/ HTTP/1.1" 200 2872

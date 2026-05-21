@@ -103,7 +103,7 @@ class GroupLeaderAssignView(APIView):
         return Response(GroupMembershipSerializer(membership).data)
 
 
-class MessageListView(generics.ListAPIView):
+class MessageListView(generics.ListCreateAPIView):
     permission_classes = [permissions.IsAuthenticated]
 
     def get_group(self):
@@ -120,6 +120,12 @@ class MessageListView(generics.ListAPIView):
     def list(self, request, *args, **kwargs):
         serializer = self.get_serializer(self.get_queryset(), many=True, context={'request': request})
         return Response(serializer.data)
+
+    def perform_create(self, serializer):
+        group = self.get_group()
+        if not is_group_member(self.request.user, group):
+            raise permissions.PermissionDenied('Вы не участник группы.')
+        serializer.save(author=self.request.user, group=group)
 
 
 class ChannelListCreateView(generics.ListCreateAPIView):

@@ -75,15 +75,16 @@ class MessageSerializer(serializers.ModelSerializer):
     author = UserSerializer(read_only=True)
     author_id = serializers.IntegerField(read_only=True)
     attachment_url = serializers.SerializerMethodField()
+    group_id = serializers.IntegerField(write_only=True, required=False)
 
     class Meta:
         model = Message
         fields = [
-            'id', 'group', 'author', 'author_id',
+            'id', 'group', 'group_id', 'author', 'author_id',
             'message_type', 'text', 'sticker_code',
             'attachment', 'attachment_url', 'created_at',
         ]
-        read_only_fields = ['id', 'author', 'author_id', 'created_at']
+        read_only_fields = ['id', 'author', 'author_id', 'created_at', 'group']
 
     def get_attachment_url(self, obj):
         request = self.context.get('request')
