@@ -37,6 +37,7 @@ class ChatGroupSerializer(serializers.ModelSerializer):
     admin = UserSerializer(read_only=True)
     leader_id = serializers.IntegerField(read_only=True)
     members_count = serializers.IntegerField(read_only=True)
+    websocket_path = serializers.SerializerMethodField()
     member_ids = serializers.ListField(
         child=serializers.IntegerField(),
         write_only=True,
@@ -47,7 +48,7 @@ class ChatGroupSerializer(serializers.ModelSerializer):
         model = ChatGroup
         fields = [
             'id', 'name', 'description', 'is_private',
-            'created_by', 'admin', 'leader_id', 'members_count', 'member_ids',
+            'created_by', 'admin', 'leader_id', 'members_count', 'websocket_path', 'member_ids',
             'created_at', 'updated_at',
         ]
         read_only_fields = [
@@ -58,6 +59,9 @@ class ChatGroupSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         validated_data.pop('member_ids', None)
         return super().create(validated_data)
+
+    def get_websocket_path(self, obj):
+        return f'/ws/messenger/{obj.id}/'
 
 
 class ChatGroupDetailSerializer(ChatGroupSerializer):
@@ -86,20 +90,6 @@ class MessageSerializer(serializers.ModelSerializer):
         if obj.attachment and request:
             return request.build_absolute_uri(obj.attachment.url)
         return obj.attachment.url if obj.attachment else None
-
-
-class MessageCreateSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Message
-        fields = ['message_type', 'text', 'sticker_code', 'attachment']
-
-    def validate(self, data):
-        message_type = data.get('message_type')
-        if message_type == Message.MessageType.TEXT and not data.get('text'):
-            raise serializers.ValidationError({'text': 'Текстовое сообщение не может быть пустым.'})
-        if message_type == Message.MessageType.STICKER and not data.get('sticker_code'):
-            raise serializers.ValidationError({'sticker_code': 'Код стикера обязателен для стикера.'})
-        return data
 
 
 class AssignLeaderSerializer(serializers.Serializer):
@@ -132,26 +122,13 @@ class ChannelMessageSerializer(serializers.ModelSerializer):
         return obj.attachment.url if obj.attachment else None
 
 
-class ChannelMessageCreateSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = ChannelMessage
-        fields = ['message_type', 'text', 'sticker_code', 'attachment']
-
-    def validate(self, data):
-        message_type = data.get('message_type')
-        if message_type == ChannelMessage.MessageType.TEXT and not data.get('text'):
-            raise serializers.ValidationError({'text': 'Текстовое сообщение не может быть пустым.'})
-        if message_type == ChannelMessage.MessageType.STICKER and not data.get('sticker_code'):
-            raise serializers.ValidationError({'sticker_code': 'Код стикера обязателен для стикера.'})
-        return data
-
-
 class ChannelSerializer(serializers.ModelSerializer):
     created_by = UserSerializer(read_only=True)
+    websocket_path = serializers.SerializerMethodField()
 
     class Meta:
         model = Channel
-        fields = ['id', 'name', 'description', 'created_by', 'created_at', 'updated_at']
+        fields = ['id', 'name', 'description', 'created_by', 'websocket_path', 'created_at', 'updated_at']
         read_only_fields = ['id', 'created_by', 'created_at', 'updated_at']
 
     def validate(self, data):
@@ -159,10 +136,6 @@ class ChannelSerializer(serializers.ModelSerializer):
         if user and not (user.role == 'admin' or user.is_staff):
             raise serializers.ValidationError('Только администраторы платформы могут создавать каналы.')
         return data
-        if message_type in [Message.MessageType.VOICE, Message.MessageType.VIDEO] and not data.get('attachment'):
-            raise serializers.ValidationError({'attachment': 'Файл обязателен для голосового или видео сообщения.'})
-        return data
 
-
-class AssignLeaderSerializer(serializers.Serializer):
-    user_id = serializers.IntegerField()
+    def get_websocket_path(self, obj):
+        return f'/ws/messenger/channels/{obj.id}/'
