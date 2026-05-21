@@ -19,6 +19,7 @@ urlpatterns = [
     path('api/aitmatov/', include('aitmatov.urls')),
     path('api/progress/', include('progress.urls')),
     path('api/schedule/', include('schedule.urls')),
+    path('api/feedback/', include('feedback.urls')),
     # Add v1/ prefix for compatibility
     path('v1/auth/', include('users.urls')),
     path('v1/users/', include('users.urls_users')),
@@ -27,6 +28,7 @@ urlpatterns = [
     path('v1/aitmatov/', include('aitmatov.urls')),
     path('v1/progress/', include('progress.urls')),
     path('v1/schedule/', include('schedule.urls')),
+    path('v1/feedback/', include('feedback.urls')),
     path('v1/messenger/', include('messenger.urls')),
 ]
 

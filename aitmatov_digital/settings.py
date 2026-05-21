@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'progress',
     'schedule',
     'api',
+    'feedback',
 ]
 
 MIDDLEWARE = [
