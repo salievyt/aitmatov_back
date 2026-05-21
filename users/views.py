@@ -3,6 +3,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework_simplejwt.views import TokenObtainPairView
 from django.contrib.auth import get_user_model
+from django.contrib.auth.models import update_last_login
 
 from api.models import create_audit_log, AuditLog
 from .serializers import UserSerializer, UserProfileSerializer, SignupSerializer, UserAdminUpdateSerializer
@@ -27,6 +28,7 @@ class LoginView(TokenObtainPairView):
         user = getattr(serializer, 'user', None)
         response = Response(serializer.validated_data, status=status.HTTP_200_OK)
         if user:
+            update_last_login(None, user)
             create_audit_log(
                 AuditLog.Action.LOGIN,
                 user=user,

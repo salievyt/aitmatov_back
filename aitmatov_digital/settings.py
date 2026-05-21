@@ -19,7 +19,7 @@ ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', 'localhost,127.0.0.1,*').split(',')
 
 CSRF_TRUSTED_ORIGINS = os.getenv(
     'CSRF_TRUSTED_ORIGINS',
-    'http://localhost,http://127.0.0.1,http://localhost:8000'
+    'http://localhost,http://127.0.0.1,http://localhost:8000,https://dev.phantom-ink.online'
 ).split(',')
 
 INSTALLED_APPS = [
@@ -160,7 +160,7 @@ SIMPLE_JWT = {
 
 CORS_ALLOWED_ORIGINS = os.getenv(
     'CORS_ALLOWED_ORIGINS',
-    'http://localhost:8080,http://localhost:3000,http://127.0.0.1:8080,http://127.0.0.1:3000'
+    'http://localhost:8080,http://localhost:3000,http://127.0.0.1:8080,http://127.0.0.1:3000,https://dev.phantom-ink.online'
 ).split(',')
 
 CORS_ALLOW_CREDENTIALS = True
